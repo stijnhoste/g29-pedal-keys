@@ -20,7 +20,7 @@ Map Logitech G29 racing wheel pedals to keyboard shortcuts on macOS. Perfect for
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/g29-pedal-keys.git
+git clone https://github.com/stijnhoste/g29-pedal-keys.git
 cd g29-pedal-keys
 
 # Build
@@ -46,8 +46,8 @@ Edit `~/.config/g29-pedal-keys/config.json`:
 ```json
 {
   "pedal": "clutch",
-  "key": "d",
-  "modifiers": ["control"],
+  "key": "space",
+  "modifiers": ["option"],
   "pressThreshold": 50,
   "releaseThreshold": 30,
   "verbose": false
