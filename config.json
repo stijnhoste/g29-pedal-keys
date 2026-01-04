@@ -1,0 +1,8 @@
+{
+  "pedal": "clutch",
+  "key": "d",
+  "modifiers": ["control"],
+  "pressThreshold": 50,
+  "releaseThreshold": 30,
+  "verbose": false
+}

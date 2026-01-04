@@ -1,0 +1,17 @@
+# Swift/Xcode
+.build/
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.dSYM
+*.ipa
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
