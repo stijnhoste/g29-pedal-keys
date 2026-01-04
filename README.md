@@ -13,10 +13,26 @@ Map Logitech G29 racing wheel pedals to keyboard shortcuts on macOS. Perfect for
 ## Requirements
 
 - macOS 12+ (Monterey or later)
+- Apple Silicon (M1/M2/M3/M4)
 - Logitech G29 Driving Force Racing Wheel
-- Swift 5.9+ (included with Xcode Command Line Tools)
 
 ## Installation
+
+### Quick Install (Pre-built Binary)
+
+```bash
+# Download and extract the latest release
+curl -L https://github.com/stijnhoste/g29-pedal-keys/releases/latest/download/g29-pedal-keys-macos-arm64.zip -o g29-pedal-keys.zip
+unzip g29-pedal-keys.zip -d g29-pedal-keys
+cd g29-pedal-keys
+
+# Install
+./install.sh
+```
+
+### Build from Source
+
+Requires Swift 5.9+ (included with Xcode Command Line Tools).
 
 ```bash
 # Clone the repo
